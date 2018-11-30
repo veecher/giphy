@@ -1,0 +1,72 @@
+body {
+    background:darkgray;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#image-column {
+    width: 75%;
+    float: left;
+}
+
+#button-maker {
+    width: 200px;
+    float: right;
+}
+
+button {
+    background-color: lightseagreen;
+    border: 2px solid black;
+    border-radius: 12px;
+    transition-duration: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+hr {
+    background-color: black;
+    border: none;
+    height: 2px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#make-food {
+    background-color: darkred;
+    color: slategray;
+    border: 2px solid black;
+    border-radius: 12px;
+    transition-duration: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    width: 175px;
+}
+
+#make-food:hover {
+    background-color: gray;
+    color: black;
+}
+
+#button-maker {
+    float:right;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.food-box {
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
